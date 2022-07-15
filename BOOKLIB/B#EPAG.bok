@@ -1,0 +1,12 @@
+      ******************************************************************00001001
+      * NOME BOOK : EPAGFORM                                           *00002003
+      * DESCRICAO : ARQUIVO DE ENTRADA DE CLIENTES                     *00003001
+      * DATA      : 13/05/2022                                         *00004003
+      * EMPRESA   : FOURSYS                                            *00005001
+      ******************************************************************00006001
+          01 REG-EPAG.                                                  00007002
+             05 WRK-DATAEMISSAO        PIC 9(008).                      00008002
+             05 WRK-CPFCNPJ            PIC X(014).                      00009002
+             05 WRK-FORNECEDOR         PIC X(030).                      00010002
+             05 WRK-NOTAFISCAL         PIC 9(008).                      00020002
+             05 WRK-VALOR              PIC 9(008).                      00030002

@@ -1,0 +1,6 @@
+                                                                        00001000
+       01 WRK-PECACOMP.                                                 00010001
+          05 WRK-COD-PECA-S       PIC 9(005)  VALUE ZEROS.              00020002
+          05 WRK-FORN-PECA-S      PIC 9(003)  VALUE ZEROS.              00030002
+          05 WRK-QUANT-COMPRA     PIC 9(002)  VALUE ZEROS.              00040001
+                                                                        00060000

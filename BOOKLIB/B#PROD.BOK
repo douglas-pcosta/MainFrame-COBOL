@@ -1,0 +1,7 @@
+       01 WRK-REG-PRODUTO.                                              00010000
+          05 WRK-REG-COD         PIC 9(05)    VALUE ZEROS.              00020001
+          05 WRK-REG-PROD        PIC X(20)    VALUE ZEROS.              00030001
+          05 WRK-REG-FORN        PIC X(15)    VALUE ZEROS.              00040001
+          05 WRK-REG-VALOR       PIC 9(08)V99 VALUE ZEROS.              00050000
+          05 WRK-REG-ESTOQUE     PIC 9(05)    VALUE ZEROS.              00060000
+          05 FILLER              PIC X(15)    VALUE SPACES.             00070000

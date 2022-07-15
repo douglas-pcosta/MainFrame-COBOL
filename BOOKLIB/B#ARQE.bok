@@ -1,0 +1,8 @@
+                                                                        00001000
+       01 WRK-ARQPECAS.                                                 00010002
+          05 WRK-COD-PECA               PIC 9(005)    VALUE ZEROS.      00020000
+          05 WRK-ITEM-PECA              PIC X(030)    VALUE SPACES.     00030001
+          05 WRK-QUANT-PECA             PIC 9(005)    VALUE ZEROS.      00040001
+          05 WRK-VUNIT-PECA             PIC 9(005)V99 VALUE ZEROS.      00050001
+          05 WRK-FORN-PECA              PIC 9(003)    VALUE ZEROS.      00060001
+                                                                        00070000

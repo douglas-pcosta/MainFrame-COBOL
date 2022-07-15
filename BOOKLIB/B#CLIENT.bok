@@ -1,0 +1,12 @@
+      ******************************************************************00001002
+      * NOME BOOK : CLIENTES                                           *00002002
+      * DESCRICAO : ARQUIVO DE ENTRADA DE CLIENTES                     *00003002
+      * DATA      : 10/05/2022                                         *00004002
+      * EMPRESA   : FOURSYS                                            *00005002
+      ******************************************************************00006002
+          01 REG-CLIENTES.                                              00010002
+             05 FD-CHAVE-CLIENTES.                                      00020002
+                10 FD-AGENCIA-CLIENTES         PIC X(004).              00030002
+                10 FD-CONTA-CLIENTES           PIC 9(005).              00040002
+             05 FD-NOME-CLIENTES               PIC X(020).              00050002
+             05 FD-SALDO-CLIENTES              PIC 9(006)V99.           00060002

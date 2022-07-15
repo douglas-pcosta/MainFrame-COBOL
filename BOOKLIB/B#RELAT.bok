@@ -1,0 +1,15 @@
+      ******************************************************************00010000
+      * NOME BOOK : RELATORIO                                          *00020000
+      * DESCRICAO : ARQUIVO PARA LAYOUT DE SAIDA DE CLIENTES           *00030000
+      * DATA      : 10/05/2022                                         *00040000
+      * EMPRESA   : FOURSYS                                            *00050000
+      ******************************************************************00070000
+                                                                        00080000
+       01 WRK-RELAT.                                                    00082005
+          05 WRK-AGENCIA-S             PIC X(004).                      00084002
+          05 FILLER                    PIC X(010)        VALUE SPACES.  00086004
+          05 WRK-CONTA-S               PIC 99999.                       00087002
+          05 FILLER                    PIC X(010)        VALUE SPACES.  00088004
+          05 WRK-NOME-S                PIC X(020).                      00089004
+          05 FILLER                    PIC X(011)        VALUE SPACES.  00090004
+          05 WRK-SALDO-S               PIC ZZZ.ZZZ,99.                  00100002

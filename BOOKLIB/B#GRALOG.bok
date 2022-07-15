@@ -1,0 +1,13 @@
+      ******************************************************************00010000
+      * NOME BOOK : GRALOG                                             *00020000
+      * DESCRICAO : ARQUIVO PARA LAYOUT DE SAIDA DE CLIENTES           *00030000
+      * DATA      : 10/05/2022                                         *00040000
+      * EMPRESA   : FOURSYS                                            *00050000
+      ******************************************************************00060000
+                                                                        00070000
+       01 WRK-LOG.                                                      00080001
+          05 WRK-PROGRAMA              PIC X(08).                       00081001
+          05 WRK-SECAO                 PIC X(04).                       00082001
+          05 WRK-MENSAGEM              PIC X(30).                       00083001
+          05 WRK-STATUS                PIC X(02).                       00085001
+          05 FILLER                    PIC X(14).                       00086001

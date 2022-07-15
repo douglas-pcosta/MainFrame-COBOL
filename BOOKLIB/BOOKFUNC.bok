@@ -1,0 +1,45 @@
+      ******************************************************************
+      * DCLGEN TABLE(FOUR001.FUNC)                                     *
+      *        LIBRARY(GR.FOUR001.BOOKLIB(BOOKFUNC))                   *
+      *        ACTION(REPLACE)                                         *
+      *        LANGUAGE(COBOL)                                         *
+      *        NAMES(DB2-)                                             *
+      *        STRUCTURE(REG-FUNC)                                     *
+      *        QUOTE                                                   *
+      *        LABEL(YES)                                              *
+      *        COLSUFFIX(YES)                                          *
+      * ... IS THE DCLGEN COMMAND THAT MADE THE FOLLOWING STATEMENTS   *
+      ******************************************************************
+           EXEC SQL DECLARE FOUR001.FUNC TABLE
+           ( ID                             SMALLINT NOT NULL,
+             NOME                           CHAR(30) NOT NULL,
+             SETOR                          CHAR(4) NOT NULL,
+             SALARIO                        DECIMAL(10, 2) NOT NULL,
+             DATAADM                        DATE NOT NULL,
+             EMAIL                          CHAR(40)
+           ) END-EXEC.
+      ******************************************************************
+      * COBOL DECLARATION FOR TABLE FOUR001.FUNC                       *
+      ******************************************************************
+       01  REG-FUNC.
+      *    *************************************************************
+      *                       ID
+           10 DB2-ID               PIC S9(4) USAGE COMP.
+      *    *************************************************************
+      *                       NOME
+           10 DB2-NOME             PIC X(30).
+      *    *************************************************************
+      *                       SETOR
+           10 DB2-SETOR            PIC X(4).
+      *    *************************************************************
+      *                       SALARIO
+           10 DB2-SALARIO          PIC S9(8)V9(2) USAGE COMP-3.
+      *    *************************************************************
+      *                       DATAADM
+           10 DB2-DATAADM          PIC X(10).
+      *    *************************************************************
+      *                       EMAIL
+           10 DB2-EMAIL            PIC X(40).
+      ******************************************************************
+      * THE NUMBER OF COLUMNS DESCRIBED BY THIS DECLARATION IS 6       *
+      ******************************************************************
