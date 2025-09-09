@@ -20,5 +20,7 @@ Exercícios -   Práticas comuns em sustentação e manutenção de sistemas.
 🚀 Objetivo
 
 Consolidar fundamentos de programação COBOL.
+
 Exercitar comandos e rotinas em ambiente Mainframe.
+
 Simular atividades de sustentação de sistemas.
